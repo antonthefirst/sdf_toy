@@ -1,0 +1,8 @@
+/.vs
+/Debug
+/Release
+/builds
+/snips
+/screenshots
+/*.VC.*
+/*.bin

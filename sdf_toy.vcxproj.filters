@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="libs\GL\gl3w.c">
+      <Filter>libs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="wrap\main.cpp">
+      <Filter>wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="wrap\app_wrap.cpp">
+      <Filter>wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="wrap\input_wrap.cpp">
+      <Filter>wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="wrap\imgui_wrap.cpp">
+      <Filter>wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\tinycthread\tinycthread.c">
+      <Filter>libs\tinycthread</Filter>
+    </ClCompile>
+    <ClCompile Include="wrap\recorder_wrap.cpp">
+      <Filter>wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="wrap\font_wrap.cpp">
+      <Filter>wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_demo.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_draw.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_tables.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_widgets.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_impl_glfw.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_impl_opengl3.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="core\color.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\colorspace.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\cpu_timer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\dev_menus.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\dir.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\file_stat.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\gl_message_log.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\platform_windows.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\shader_loader.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\thread_pool.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\timestamp_log.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="math\mat4.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="core\texture.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\orbit_camera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\toy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs\GLFW\glfw3.h">
+      <Filter>libs\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\GLFW\glfw3native.h">
+      <Filter>libs\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\GL\gl3w.h">
+      <Filter>libs\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\GL\glcorearb.h">
+      <Filter>libs\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="wrap\app_wrap.h">
+      <Filter>wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="wrap\input_wrap.h">
+      <Filter>wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="wrap\imgui_wrap.h">
+      <Filter>wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\stb\stb_image.h">
+      <Filter>libs\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\tinycthread\tinycthread.h">
+      <Filter>libs\tinycthread</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\stb\stb_image_write.h">
+      <Filter>libs\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="wrap\recorder_wrap.h">
+      <Filter>wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="wrap\font_wrap.h">
+      <Filter>wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\stb\stb_rect_pack.h">
+      <Filter>libs\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\stb\stb_truetype.h">
+      <Filter>libs\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imconfig.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_internal.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imstb_rectpack.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imstb_textedit.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imstb_truetype.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_user.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_impl_glfw.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_impl_opengl3.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\basic_types.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\col.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\color.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\colorspace.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\container.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cpu_timer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\crc.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\dev_menus.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\dir.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\dirent.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\file_stat.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\gl_message_log.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hashed_string.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hashmap.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\mesh.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\mesh_maker.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\packing.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\platform.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\shader_loader.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\string_range.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\thread_pool.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\timer_tree.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\times.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\timestamp_log.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="math\box2.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\mat4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\maths.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\maths_custom.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\maths_scalar.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\maths_vector.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\pose2.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\pose3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\quat.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="core\texture.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bounded_string.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\control.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\orbit_camera.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\saveload.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\serialize.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\serialize_test.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libs">
+      <UniqueIdentifier>{336c9dd5-7c68-453d-88b7-56369177b40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\glfw">
+      <UniqueIdentifier>{111565b8-7803-4a6b-bcbb-04d5cc506d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\imgui">
+      <UniqueIdentifier>{977d56b8-c953-49a7-988b-823ae885bdc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\gl">
+      <UniqueIdentifier>{abf7ce9d-8537-43b2-b14a-115e77ca6d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wrap">
+      <UniqueIdentifier>{18bc355c-1c08-4784-ace2-21cfe3e1a8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{9c180f66-a118-4cc1-914e-bd194ba04e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{d9c0951a-f034-4d3d-a242-b792c88ac659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\stb">
+      <UniqueIdentifier>{1ad6307c-3772-4011-8e9d-ddb327d6aab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\tinycthread">
+      <UniqueIdentifier>{446f632a-5f95-4080-a03b-777dea1c2014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{506deb3c-b180-401e-9101-16ae90b59d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2116df21-1854-46d1-a169-84ab02defd24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\maths.inl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\rngeasy.inl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sdf.inl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\visibility.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\visibility.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\visibility_shared.inl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\shapes_intersect.inl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\shapes_definition.inl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\flat.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\flat.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\flat_shared.inl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\show_texture.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\show_texture.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\show_texture_shared.inl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

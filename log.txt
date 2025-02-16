@@ -1,0 +1,10 @@
+Client main entry.
+
+App init: 0
+
+GL message log init ok.
+
+ImGui init ok.
+
+Game init ok.
+
